@@ -9,20 +9,20 @@ header,
 footer {
   border: 3px dashed blue;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+header h1 {
   margin-left: 20px;
 }
-article[class="new"] {
+h2,
+h3,
+h4 {
+  margin-left: 20px;
+}
+article.new {
   font-size: 24px;
 }
-li[class="topic new"] {
+li.new {
   background-color: red;
 }
-[class="new posted-today"] {
+.new.posted-today {
   background-color: pink;
 }
