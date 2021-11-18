@@ -1,0 +1,24 @@
+div {
+  box-sizing: border-box;
+  margin: 50px;
+  width: 100px;
+  height: 50px;
+}
+.first-box {
+  border-radius: 10px;
+  background-color: forestgreen;
+}
+.second-box {
+  border-radius: 50%;
+  background-color: darkmagenta;
+}
+.third-box {
+  border-radius: 50%;
+  height: 100px;
+  background-color: aquamarine;
+}
+.last-box {
+  border: 50px solid transparent;
+  border-top-color: brown;
+  height: 100px;
+}
