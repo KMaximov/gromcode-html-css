@@ -1,0 +1,17 @@
+div {
+  border: 2px solid black;
+  margin: 50px;
+}
+.first-box {
+  background-color: blue;
+}
+.second-box {
+  background-color: yellow;
+}
+.third-box {
+  background-color: green;
+}
+.last-box {
+  background-color: pink;
+  padding: 50px;
+}
