@@ -28,8 +28,7 @@ div > p {
 input[type="text"] {
   background-color: gray;
 }
-h2 ~ p {
-  background-color: yellow;
+div:nth-child(5) > p:last-child {
   border: 5px solid white;
 }
 em {
