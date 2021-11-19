@@ -10,7 +10,6 @@
 nav {
   line-height: center;
   height: 40px;
-  margin-left: 16px;
 }
 li {
   margin-left: 16px;
@@ -23,7 +22,7 @@ li {
 }
 .head {
   position: relative;
-  top: 200px;
+  top: 140px;
   left: 200px;
   height: 200px;
   width: 200px;
