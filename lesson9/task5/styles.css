@@ -7,11 +7,12 @@
   height: 40px;
   background-color: darkturquoise;
 }
-nav {
-  line-height: center;
+ul {
   height: 40px;
+  line-height: 2;
 }
 li {
+  height: 40px;
   margin-left: 16px;
   display: inline;
   color: white;
