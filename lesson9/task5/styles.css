@@ -7,11 +7,9 @@
   height: 40px;
   background-color: darkturquoise;
 }
-ul {
-  height: 40px;
-}
+
 li {
-  line-height: center;
+  line-height: 2;
   display: inline;
   margin-left: 16px;
   color: white;
