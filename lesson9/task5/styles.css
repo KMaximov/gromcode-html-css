@@ -9,11 +9,14 @@ ul {
   height: 40px;
   margin: 0;
 }
-li {
+.nav-item-1 {
+  margin-left: 16px;
+}
+.nav-item {
   line-height: 40px;
   display: inline-block;
   color: white;
-  margin-left: 16px;
+  margin-left: 15px;
 }
 .content {
   height: 5000px;
