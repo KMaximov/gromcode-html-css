@@ -13,16 +13,16 @@ li {
   line-height: 40px;
   display: inline-block;
   color: white;
-  margin-left: 15px;
+  margin-left: 16px;
 }
 .content {
   height: 5000px;
   background-color: beige;
 }
 .head {
-  position: relative;
-  top: 150px;
-  left: 200px;
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
   height: 200px;
   width: 200px;
   background-color: aquamarine;
