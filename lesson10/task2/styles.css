@@ -1,6 +1,12 @@
-
-.block {
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+div {
   display: inline-flex;
+  flex-wrap: wrap;
   height: 100px;
   min-width: 100px;
+  max-width: 100%;
+  flex-grow: 1;
 }
