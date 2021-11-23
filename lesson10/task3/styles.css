@@ -45,7 +45,7 @@ body {
   padding: 0;
 }
 .news_menu_list {
-  margin-left: 16px;
+  margin: 16px 0 0 16px;
   height: 40px;
   list-style-type: none;
 }
