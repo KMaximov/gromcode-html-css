@@ -13,6 +13,7 @@ body {
   align-items: center;
 }
 .navigation {
+  padding: 0;
   display: flex;
 }
 .navigation_item {
@@ -41,7 +42,6 @@ body {
   margin: 16px 0;
 }
 .news_menu {
-  margin: 0;
   padding: 0;
 }
 .news_menu_list {
