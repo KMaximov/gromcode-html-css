@@ -6,7 +6,6 @@ div {
   display: inline-flex;
   flex-wrap: wrap;
   height: 100px;
-  min-width: 100px;
-  max-width: 100%;
+  width: 100px;
   flex-grow: 1;
 }
