@@ -11,4 +11,5 @@ header {
 .articles-list {
   display: inline-flex;
   flex-wrap: wrap;
+  min-height: 100vh;
 }
