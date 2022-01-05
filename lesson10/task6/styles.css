@@ -3,13 +3,13 @@ header {
   justify-content: center;
 }
 .article {
-  box-sizing: border-box;
   margin: 8px;
   padding: 16px;
   background-color: bisque;
   flex: 1 5 300px;
 }
 .articles-list {
+  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
 }
