@@ -2,10 +2,12 @@
   box-sizing: border-box;
 }
 .dropdown {
+  position: relative;
+  display: inline-block;
   margin: 16px;
 }
 .menu-button {
-  display: inline-block;
+  display: block;
   padding: 16px;
   cursor: pointer;
   background-color: darkgreen;
@@ -20,7 +22,7 @@
 .menu-list {
   position: absolute;
   display: none;
-  top: 66.4px;
+  top: 50.4px;
   margin: 0;
   padding: 0;
   background-color: lightcyan;
