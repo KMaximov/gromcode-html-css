@@ -1,5 +1,6 @@
 .dropdown {
   position: relative;
+  top: 16px;
   display: inline-block;
   margin: 16px;
 }
@@ -8,7 +9,6 @@
   padding: 16px;
   background-color: darkgreen;
   opacity: 0.8;
-  
 }
 .menu-button:hover {
   cursor: pointer;
