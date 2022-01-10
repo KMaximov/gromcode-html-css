@@ -5,7 +5,7 @@ header {
 .article {
   box-sizing: border-box;
   margin: 8px;
-  padding: 16px 16px 15.9px;
+  padding: 16px 16px 15.8px;
   background-color: bisque;
   flex: 1 0 300px;
 }
