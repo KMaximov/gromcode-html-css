@@ -1,18 +1,18 @@
 * {
   box-sizing: border-box;
 }
-
 .dropdown {
+  margin: 16px;
+}
+.menu-button {
   position: relative;
   display: inline-block;
-  margin: 16px;
-  cursor: pointer;
   padding: 16px;
+  cursor: pointer;
   background-color: darkgreen;
   opacity: 0.8;
 }
-
-.dropdown:hover {
+.menu-button:hover {
   cursor: pointer;
   opacity: 1;
   font-size: 16px;
@@ -21,7 +21,7 @@
 .menu-list {
   position: absolute;
   display: none;
-  top: 50px;
+  top: 65px;
   margin: 0;
   padding: 0;
   background-color: lightcyan;
