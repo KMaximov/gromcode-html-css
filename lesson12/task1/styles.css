@@ -1,7 +1,7 @@
 html {
   font-family: Roboto, sans-serif;
 }
-body {
+section {
   font-size: 18px;
   margin: 32px;
 }
@@ -11,7 +11,7 @@ h1 {
   text-align: center;
 }
 p {
-  height: 28px;
+  line-height: 28px;
 }
 b {
   letter-spacing: 3px;
