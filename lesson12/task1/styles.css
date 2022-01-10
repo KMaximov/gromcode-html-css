@@ -1,10 +1,9 @@
 html {
   font-family: Roboto, sans-serif;
-}
-section {
   font-size: 18px;
   margin: 32px;
 }
+
 h1 {
   word-spacing: 20px;
   text-transform: uppercase;
