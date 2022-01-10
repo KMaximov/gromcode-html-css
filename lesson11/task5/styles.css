@@ -1,0 +1,11 @@
+body {
+  box-sizing: border-box;
+}
+div {
+  display: flex;
+  cursor: all-scroll;
+  overflow: scroll;
+}
+img {
+  margin: 8px;
+}
