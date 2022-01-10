@@ -12,6 +12,7 @@
   cursor: pointer;
   background-color: darkgreen;
   opacity: 0.8;
+  color: white;
 }
 .menu-button:hover {
   cursor: pointer;
