@@ -11,6 +11,7 @@ div {
 .tooltip {
   position: absolute;
   display: block;
+  visibility: hidden;
   bottom: -40px;
   background-color: grey;
   color: white;
