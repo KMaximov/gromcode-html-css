@@ -1,13 +1,14 @@
 * {
   box-sizing: border-box;
 }
-.image-container {
-  position: relative;
+body {
   display: flex;
 }
-.image {
-  display: inline-flex;
+.image-container {
+  position: relative;
   margin: 0 auto;
+}
+.image {
   max-width: 100vh;
 }
 .image-button {
