@@ -2,13 +2,13 @@
   box-sizing: border-box;
 }
 .gallery {
-  margin-left: 16px;
+  margin: 16px;
 }
 .image {
   display: inline-block;
   height: 200px;
   width: 200px;
-  margin: 14px;
+  margin-left: 14px;
   border: 1px dotted grey;
   background-position: center;
   background-size: contain;
