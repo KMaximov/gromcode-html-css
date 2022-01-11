@@ -3,6 +3,6 @@ body {
 }
 iframe {
   margin: 100px auto;
-  width: 500px;
-  height: 400px;
+  max-width: 500px;
+  max-height: 400px;
 }
