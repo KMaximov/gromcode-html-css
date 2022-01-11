@@ -5,9 +5,11 @@ body {
   display: flex;
 }
 .image-container {
+  display: inline-flex;
   position: relative;
   margin: 0 auto;
   max-width: 100vh;
+  max-height: 100vh;
 }
 .image-button {
   position: absolute;
