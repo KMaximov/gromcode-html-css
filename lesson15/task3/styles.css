@@ -1,9 +1,9 @@
-figure {
-  display: flex;
+iframe {
   margin: 0 auto;
+  margin-top: 100px;
+  display: block;
   width: 500px;
   height: 400px;
+  margin-bottom: 100px;
 }
-iframe {
-  margin: 100px auto;
-}
+
