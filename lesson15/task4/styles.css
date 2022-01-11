@@ -25,7 +25,7 @@ body {
   margin: auto;
   line-height: 50px;
   top: calc(50% - 25px);
-  left: calc(50% - 95px);
+  left: calc(50% - 85px);
 }
 .image-button:hover {
   opacity: 1;
