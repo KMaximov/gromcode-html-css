@@ -1,18 +1,17 @@
 * {
   box-sizing: border-box;
 }
+.gallery {
+  margin-left: 16px;
+}
 .image {
   display: inline-block;
   height: 200px;
   width: 200px;
-  margin: 16px;
+  margin: 14px;
   border: 1px dotted grey;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   background-clip: border-box;
-}
-.image ~ div {
-  margin-left: 11px;
-  margin-top: 17px;
 }
