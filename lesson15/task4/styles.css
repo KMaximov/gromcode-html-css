@@ -3,9 +3,9 @@
 }
 .image-container {
   position: relative;
-  display: flex;
+  display: block;
 }
-img {
+.image {
   display: block;
   margin: 0 auto;
   max-width: 100vh;
