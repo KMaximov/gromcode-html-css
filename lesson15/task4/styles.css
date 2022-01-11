@@ -2,10 +2,11 @@
   box-sizing: border-box;
 }
 .image-container {
-  display: flex;
+  display: block;
   position: relative;
 }
 .image {
+  display: block;
   max-width: 100vh;
   margin: 0 auto;
 }
