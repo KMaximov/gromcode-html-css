@@ -1,11 +1,10 @@
 * {
   box-sizing: border-box;
 }
-body {
-  position: relative;
-}
+
 .image-container {
   display: flex;
+  position: relative;
   margin: 0 auto;
 }
 .image {
@@ -25,7 +24,7 @@ body {
   margin: auto;
   line-height: 50px;
   top: calc(50% - 25px);
-  left: calc(50% - 85px);
+  left: calc(50% - 100px);
 }
 .image-button:hover {
   opacity: 1;
