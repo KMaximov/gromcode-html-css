@@ -7,6 +7,6 @@ html {
   list-style-type: none;
 }
 .properties-list__item {
-  margin: 8px;
-  line-height: 32px;
+  padding: 8px;
+  height: 32px;
 }
