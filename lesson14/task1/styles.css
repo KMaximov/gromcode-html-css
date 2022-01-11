@@ -6,6 +6,7 @@ html {
 }
 
 .properties-list__item {
+  margin: 0;
   color: #f39;
   font-size: 24px;
   list-style-type: none;
