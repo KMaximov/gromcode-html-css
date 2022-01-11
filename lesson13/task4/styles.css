@@ -3,9 +3,9 @@
 }
 div {
   margin: 16px;
-  
 }
 .gallery {
+  margin-left: 0;
   display: flex;
 }
 .image {
