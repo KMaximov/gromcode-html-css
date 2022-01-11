@@ -8,5 +8,5 @@ html {
 }
 .properties-list__item {
   margin: 8px;
-  height: 32px;
+  line-height: 32px;
 }
