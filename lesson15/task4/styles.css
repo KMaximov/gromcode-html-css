@@ -2,11 +2,11 @@
   box-sizing: border-box;
 }
 .image-container {
-  display: block;
   position: relative;
+  display: flex;
 }
 .image {
-  display: block;
+  display: inline-flex;
   max-width: 100vh;
   margin: 0 auto;
 }
