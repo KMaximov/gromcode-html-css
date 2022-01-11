@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 .image {
   display: inline-block;
   height: 200px;
@@ -11,5 +10,8 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  background-clip: padding-box;
+  background-clip: border-box;
+}
+.image ~ div {
+  margin-left: 15px;
 }
