@@ -1,12 +1,14 @@
 * {
   box-sizing: border-box;
 }
-.image-container {
+body {
   position: relative;
-  display: block;
+}
+.image-container {
+  display: flex;
 }
 .image {
-  display: block;
+  display: flex;
   margin: 0 auto;
   max-width: 100vh;
 }
