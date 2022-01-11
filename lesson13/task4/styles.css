@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .image {
-  display: inline-block;
+  display: inline-flex;
   height: 200px;
   width: 200px;
   margin: 16px;
