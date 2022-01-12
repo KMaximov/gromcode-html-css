@@ -9,7 +9,7 @@
 .image {
   display: flex;
   max-width: 100vh;
-  max-height: 100vh;
+  flex-shrink: 1;
 }
 .image-button {
   position: absolute;
