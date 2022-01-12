@@ -5,10 +5,11 @@
   position: relative;
   display: flex;
   justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 .image {
   max-width: 100vh;
-  flex-grow: 1;
 }
 .image-button {
   position: absolute;
