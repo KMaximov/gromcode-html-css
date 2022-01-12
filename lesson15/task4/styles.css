@@ -5,10 +5,9 @@
   position: relative;
   display: flex;
   justify-content: center;
-  flex-grow: 1;
-  flex-shrink: 1;
 }
 .image {
+  flex-shrink: 1;
   max-width: 100vh;
 }
 .image-button {
