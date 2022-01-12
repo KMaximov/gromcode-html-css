@@ -8,6 +8,7 @@
 }
 .image {
   flex-grow: 1;
+  flex-shrink: 1;
   margin: 0 auto;
   max-width: 100vh;
 }
