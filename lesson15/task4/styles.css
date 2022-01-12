@@ -4,17 +4,16 @@
 .image-container {
   position: relative;
   display: flex;
+  flex-direction: column;
 }
 .image {
+  flex-grow: 1;
   margin: 0 auto;
   max-width: 100vh;
 }
 .image-button {
   position: absolute;
-  display: flex;
   width: 200px;
-  justify-content: center;
-  align-items: center;
   height: 50px;
   background-color: bisque;
   font-size: 12px;
