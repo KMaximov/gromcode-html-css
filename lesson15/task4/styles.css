@@ -7,8 +7,9 @@
   justify-content: center;
 }
 .image {
-  flex-shrink: 1;
+  display: flex;
   max-width: 100vh;
+  max-height: 100vh;
 }
 .image-button {
   position: absolute;
