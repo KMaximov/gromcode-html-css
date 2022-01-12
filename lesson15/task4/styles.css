@@ -8,6 +8,7 @@
 }
 .image {
   max-width: 100vh;
+  flex-grow: 1;
 }
 .image-button {
   position: absolute;
