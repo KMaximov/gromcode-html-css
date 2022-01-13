@@ -66,13 +66,33 @@
       <div>
         <input type="password" name="password" value="secret" />
       </div>
-      <div class="language">
-        <label> <input type="radio" name="html" id="radioButton" />HTML </label>
+      <div>
         <label>
-          <input type="radio" name="css" id="radioButton" checked /> CSS
+          <input
+            type="radio"
+            name="language"
+            value="html"
+            id="radioButton"
+          />HTML
         </label>
         <label>
-          <input type="radio" name="javascript" id="radioButton" /> JavaScript
+          <input
+            type="radio"
+            name="language"
+            id="radioButton"
+            value="css"
+            checked
+          />
+          CSS
+        </label>
+        <label>
+          <input
+            type="radio"
+            name="language"
+            id="radioButton"
+            value="javascript"
+          />
+          JavaScript
         </label>
       </div>
       <div>
@@ -81,7 +101,7 @@
       <div>
         <select name="framework">
           <option value="react">React</option>
-          <option value="jquery" selected>Jquery</option>
+          <option value="jquery" selected>jQuery</option>
           <option value="bootstrap">Bootstrap</option>
         </select>
       </div>
