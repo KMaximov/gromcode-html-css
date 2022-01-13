@@ -16,6 +16,9 @@ th {
   text-align: right;
   line-height: 40px;
 }
+tr {
+  padding: 4px;
+}
 
 div {
   overflow-x: auto;
