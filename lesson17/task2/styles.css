@@ -10,11 +10,9 @@ table {
 td,
 th {
   border: 1px solid black;
-  line-height: 40px;
-  text-align: right;
-}
-tr{
   padding: 4px;
+  text-align: right;
+  height: 40px;
 }
 div {
   overflow-x: auto;
@@ -24,7 +22,6 @@ tbody > tr:nth-child(odd) {
 }
 tbody > tr:hover {
   background-color: #aaa;
-  color: white;
 }
 thead {
   background-color: aqua;
