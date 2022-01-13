@@ -4,22 +4,18 @@
 table {
   width: 500px;
   margin: 16px;
-}
-table,
-td,
-th {
   border-collapse: collapse;
-  border: 1px solid black;
-}
-td,
-th {
-  text-align: right;
-  line-height: 40px;
-}
-tr {
-  padding: 4px;
 }
 
+td,
+th {
+  border: 1px solid black;
+  line-height: 40px;
+  text-align: right;
+}
+tr{
+  padding: 4px;
+}
 div {
   overflow-x: auto;
 }
@@ -30,7 +26,7 @@ tbody > tr:hover {
   background-color: #aaa;
   color: white;
 }
-th {
+thead {
   background-color: aqua;
 }
 tfoot {
