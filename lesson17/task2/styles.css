@@ -3,16 +3,19 @@
 }
 table {
   width: 500px;
-  margin: 32px;
-  border-collapse: collapse;
+  margin: 16px;
 }
-
+table,
 td,
 th {
+  border-collapse: collapse;
   border: 1px solid black;
-  line-height: 40px;
+}
+td,
+th {
   padding: 4px;
   text-align: right;
+  line-height: 40px;
 }
 
 div {
@@ -25,7 +28,7 @@ tbody > tr:hover {
   background-color: #aaa;
   color: white;
 }
-thead {
+th {
   background-color: aqua;
 }
 tfoot {
