@@ -1,11 +1,11 @@
 * {
   box-sizing: border-box;
 }
-.table {
+table {
   margin: 16px;
   text-align: center;
 }
-.table,
+table,
 tr,
 td {
   border: 1px solid black;
@@ -17,7 +17,15 @@ td {
   height: 50px;
 }
 
-.table-row:nth-child(odd) .table-cell:nth-child(even),
-.table-row:nth-child(even) .table-cell:nth-child(odd) {
+tr:nth-child(odd) > td:nth-child(even),
+tr:nth-child(even) > td:nth-child(odd) {
   background-color: black;
+}
+
+tr:first-child > td,
+tr:last-child > td,
+tr > td:first-child,
+tr > td:last-child {
+  background-color: white !important;
+  border: none;
 }
