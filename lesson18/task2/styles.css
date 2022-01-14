@@ -1,7 +1,7 @@
 .first-button {
   margin: 64px;
   width: 200px;
-  height: 50px;
+  line-height: 50px;
   background-color: coral;
   color: white;
   border-radius: 4px;
@@ -22,4 +22,7 @@
 }
 .first-button:hover > .bird-icon {
   fill: green;
+}
+.fas {
+  vertical-align: middle;
 }
