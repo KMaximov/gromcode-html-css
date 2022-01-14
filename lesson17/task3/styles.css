@@ -11,22 +11,10 @@ td {
   border: 1px solid black;
   border-collapse: collapse;
 }
-tfoot > tr > td,
-thead > tr > td {
-  border: none;
-}
 tr,
 td {
   width: 50px;
   height: 50px;
-}
-
-.table-row:last-child .table-cell,
-.table-cell:last-child,
-.table-row:first-child .table-cell,
-.table-row .table-cell:first-child {
-  border: none;
-  background-color: #fff !important;
 }
 
 .table-row:nth-child(odd) .table-cell:nth-child(even),
