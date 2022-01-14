@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .first-button {
   margin: 64px;
   width: 200px;
@@ -23,7 +26,4 @@
 }
 .first-button:hover > .bird-icon {
   fill: green;
-}
-.fas {
-  vertical-align: middle;
 }
