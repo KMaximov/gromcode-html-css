@@ -23,3 +23,6 @@
 .first-button:hover > .bird-icon {
   fill: green;
 }
+.fas {
+  vertical-align: middle;
+}
