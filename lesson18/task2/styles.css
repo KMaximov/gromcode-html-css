@@ -1,4 +1,4 @@
-.first-button {
+button {
   margin: 64px;
   width: 200px;
   line-height: 50px;
@@ -22,4 +22,7 @@
 }
 .first-button:hover > .bird-icon {
   fill: green;
+}
+.second-button {
+  height: 50px;
 }
