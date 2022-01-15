@@ -30,21 +30,7 @@
   fill: green;
 }
 
-.second-button {
-  display: inline-block;
-  margin: 64px;
-  width: 200px;
-  height: 50px;
-  background-color: coral;
-  color: white;
-  border-radius: 4px;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: 700;
-  text-transform: uppercase;
-  border: none;
-  cursor: pointer;
-  align-items: center;
-}
-.fas {
+span {
+
   vertical-align: middle;
 }
