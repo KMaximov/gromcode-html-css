@@ -1,9 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-.container {
-  display: flex;
-}
 .first-button {
   margin: 64px;
   width: 200px;
@@ -28,9 +22,4 @@
 }
 .first-button:hover > .bird-icon {
   fill: green;
-}
-
-span {
-
-  vertical-align: middle;
 }
