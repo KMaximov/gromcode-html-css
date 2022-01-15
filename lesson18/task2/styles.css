@@ -39,4 +39,6 @@
   text-transform: uppercase;
   border: none;
   cursor: pointer;
+  vertical-align: center;
+  align-items: center;
 }
