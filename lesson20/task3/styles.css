@@ -23,7 +23,6 @@
   border-radius: 50%;
   margin-bottom: 8px;
   animation: spin 2s linear;
-  transform: rotate(45deg);
 }
 
 @keyframes blinking {
