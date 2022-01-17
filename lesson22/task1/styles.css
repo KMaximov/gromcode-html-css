@@ -6,7 +6,6 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  flex-direction: row;
 }
 .square {
   width: 100px;
@@ -14,16 +13,13 @@
   margin: 8px;
   background-color: #ff7f50;
 }
-@media screen and (min-width: 600px) and (orientation: landscape) {
-  .container {
-    flex-direction: column;
-  }
+@media screen and (min-width: 600px) {
   .square {
     background-color: #8a2be2;
   }
 }
 @media screen and (orientation: portrait) {
   .container {
-    flex-direction: row;
+    flex-direction: column;
   }
 }
