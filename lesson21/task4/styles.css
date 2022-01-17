@@ -46,7 +46,6 @@ body {
   overflow: hidden;
 }
 .nav-list-link {
-  min-width: 100vw;
   text-decoration: none;
   color: white;
 }
