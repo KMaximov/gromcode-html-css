@@ -8,5 +8,6 @@ picture {
   margin: 0 auto;
 }
 img {
-  max-width: 100%;
+  max-width: 100vw;
+  max-height: 100vh;
 }
