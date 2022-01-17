@@ -4,6 +4,7 @@
 .container {
   display: flex;
   height: 100vh;
+  width: 100vw;
 }
 .spinner {
   margin: auto;
@@ -23,7 +24,6 @@
   border-radius: 50%;
   margin-bottom: 8px;
   animation: spin 2s linear;
-  transform: rotate(21deg);
 }
 
 @keyframes blinking {
@@ -39,7 +39,7 @@
 }
 @keyframes spin {
   from {
-    transform: rotate(21deg);
+    transform: rotate(0);
   }
   to {
     transform: rotate(360deg);
