@@ -8,6 +8,7 @@
 }
 .spinner {
   margin: auto;
+  line-height: 50px;
 }
 .spinner-text {
   font-family: monospace;
