@@ -21,15 +21,21 @@ body {
   flex: 1 0 auto;
   display: flex;
 }
-.navigation {
-  width: 20%;
+.navigation,
+.section,
+.news,
+.footer {
   padding: 0.5em;
+}
+.navigation,
+.news {
+  width: 20%;
 }
 .nav-list {
   padding: 0;
 }
 .nav-list-item {
-  padding: 0 0.5em 0 0;
+  padding: 0 0.5em;
   list-style-type: none;
   background-color: #808080;
   line-height: 2em;
@@ -39,17 +45,14 @@ body {
   text-overflow: ellipsis;
   overflow: hidden;
 }
-
 .nav-list-link {
   min-width: 100vw;
-  padding: 0 0.5em;
   text-decoration: none;
   color: white;
 }
 .section {
   font-size: 1.25em;
   width: 60%;
-  padding: 0.5em;
 }
 .section__header {
   text-align: center;
@@ -64,13 +67,9 @@ body {
   font-size: 1.125em;
   font-weight: 700;
 }
-.news {
-  width: 20%;
-  padding: 0.5em;
-}
+
 .footer {
   background-color: #e5e5e5;
-  padding: 0.5em;
   width: 100vw;
   text-align: center;
   margin: 0 0 auto;
