@@ -20,40 +20,43 @@ body {
 .main {
   flex: 1 0 auto;
   display: flex;
-  font-size: 1.25em;
 }
 .navigation {
   width: 20%;
   padding: 0.5em;
 }
 .nav-list {
-  line-height: 1.75em;
   padding: 0;
 }
 .nav-list-item {
   padding: 0;
   list-style-type: none;
   background-color: #808080;
-  color: white;
   line-height: 2em;
   margin-bottom: 0.5em;
+  color: white;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
 
 .nav-list-link {
+  min-width: 100vw;
   padding: 0 0.5em;
   text-decoration: none;
   color: white;
 }
 .section {
+  font-size: 1.25em;
   width: 60%;
   padding: 0.5em;
 }
 .section__header {
   text-align: center;
   font-size: calc(100vw / 100 * 5);
+}
+.units-list {
+  line-height: 1.75em;
 }
 .css-units {
   color: #8b0000;
@@ -66,10 +69,9 @@ body {
   padding: 0.5em;
 }
 .footer {
-  display: flex;
   background-color: #e5e5e5;
   padding: 0.5em;
   width: 100vw;
-  justify-content: center;
+  text-align: center;
   margin: 0 0 auto;
 }
