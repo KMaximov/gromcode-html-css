@@ -23,7 +23,7 @@
   border-radius: 50%;
   margin-bottom: 8px;
   animation: spin 2s linear;
-  transform: rotate(22deg);
+  transform: rotate(21deg);
 }
 
 @keyframes blinking {
@@ -39,7 +39,7 @@
 }
 @keyframes spin {
   from {
-    transform: rotate(0);
+    transform: rotate(21deg);
   }
   to {
     transform: rotate(360deg);
