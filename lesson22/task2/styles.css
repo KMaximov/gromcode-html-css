@@ -33,6 +33,9 @@ span {
     display: flex;
     flex-grow: 2;
   }
+  .navigation, .product-list {
+    width: calc(100vw /2);
+  }
 }
 @media screen and (min-width: 1200px) {
   .container {
