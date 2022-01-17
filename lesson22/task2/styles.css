@@ -41,7 +41,7 @@ span {
   .container {
     display: flex;
   }
-  div {
+  .navigation, .product-list, .news {
     width: calc(100vw / 3);
   }
 }
