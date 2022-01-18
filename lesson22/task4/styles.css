@@ -31,7 +31,7 @@ html {
   color: white;
   height: 2em;
   margin-bottom: 0.5em;
-  padding: 0 0.5em;
+  padding: 0.5em;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -41,9 +41,8 @@ html {
   color: white;
 }
 
-
 @media screen and (min-width: 600px) {
-  .header {
+  .fas {
     visibility: hidden;
   }
   .main {
