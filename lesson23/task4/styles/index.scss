@@ -25,7 +25,7 @@
 .navigation,
 .product-list,
 .news {
-  @include for-small {
+  @include for-big {
     width: calc(100vw / 3);
   }
 }
