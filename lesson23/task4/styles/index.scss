@@ -1,0 +1,31 @@
+@import "layout.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+.product {
+  @include for-small {
+    display: flex;
+    flex-grow: 2;
+  }
+}
+.navigation,
+.product-list {
+  @include for-small {
+    width: calc(100vw / 2);
+  }
+}
+
+.container {
+  @include for-big {
+    display: flex;
+  }
+}
+.navigation,
+.product-list,
+.news {
+  @include for-small {
+    width: calc(100vw / 3);
+  }
+}

@@ -1,0 +1,39 @@
+$sm: 600px;
+$lg: 1200px;
+
+.navigation,
+.news,
+.product-list {
+  display: flex;
+  height: 200px;
+  flex-grow: 1;
+}
+.navigation {
+  background-color: #ff7f50;
+}
+.product-list {
+  background-color: #006400;
+}
+.news {
+  background-color: #0ff;
+}
+
+span {
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+  margin: auto;
+}
+
+@mixin for-small {
+  @media screen and (min-width: $sm) {
+    @content;
+  }
+}
+@mixin for-big {
+  @media screen and (min-width: $lg) {
+    @content;
+  }
+}
